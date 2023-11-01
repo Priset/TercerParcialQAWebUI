@@ -18,6 +18,7 @@ public class TestBase {
     protected CentralSection centralSection = new CentralSection();
 
     protected SettingsSection settingsSection = new SettingsSection();
+    protected SignUpPage signUpPage = new SignUpPage();
 
     @BeforeEach
     public void openBroswer() {
